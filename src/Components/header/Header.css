@@ -1,0 +1,42 @@
+.header_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+.header_logo{
+    width: 100%;
+}
+.bihar_gov_logo{
+    width: 7%;
+}
+.header_heading_iv{
+    text-align: center;
+    color: darkred;
+}
+.header_heading_iii{
+    text-align: center;
+}
+.header_main_link{
+    width: 7vw;
+    height: 7vw;
+}
+@media only screen and (max-width: 412px) {
+    .header_heading_iii{
+        display: none;
+    }
+    .header_heading_iv{
+        font-size: large;
+    }
+    .bihar_gov_logo{
+        display: none;
+    }
+    .header_logo{
+        height: 100%;
+        width: 100%;
+    }
+    .header_main_link {
+        width: 32vw;
+        height: 13vw;
+    }
+  }

@@ -1,0 +1,112 @@
+.gallery_banner_div {
+
+    width: 100%;
+    background-color: #f6c3ac2f;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding: 4.5vw;
+}
+
+.gallery_page_headiing {
+    font-size: large;
+    margin: auto;
+}
+
+.gallery_page_body {
+    text-align: center;
+    margin: auto;
+}
+
+.gallery_page_image_list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.yoga_img {
+    width: 20%;
+    height: 30vh;
+
+}
+
+.gallery_page_heading {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    margin: 6vh;
+}
+
+.gallery_page_heading p {
+    margin: 0;
+    font-size: small;
+}
+
+.gallery_page_heading h4 {
+    margin: 0;
+}
+
+.gallery_page_img_container {
+    margin: 10vh 0;
+}
+
+.popup_main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    gap: 7vw;
+    align-items: center;
+    z-index: 1;
+
+}
+#popup_main_id{
+    display: none;
+}
+
+.popup_img_div {
+    height: 40vh;
+
+
+
+}
+
+.popup_slide_btn{
+    color: white;
+    user-select: none;
+    font-size: 2vw;
+    text-shadow: 0 0 8px black;
+}
+.popup_slide_btn:hover{
+    cursor: pointer;
+}
+
+.popup_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+    
+}
+.popup_slide_btn_left{
+    position: absolute;
+    left: 2vw;
+}
+.popup_slide_btn_right{
+    position: absolute;
+    right: 2vw;
+}
+.cross {
+    position: absolute;
+    font-size: 35px;
+    margin-top: -1.9vh;
+    margin-left: -1.7vw;
+    padding: 0;
+    cursor:pointer;
+}

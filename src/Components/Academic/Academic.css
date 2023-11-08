@@ -1,0 +1,113 @@
+.admission_page_table{
+    width: 40vw;
+}
+.fee_structure_table{
+    /* width: 80%; */
+    border-radius: 0;
+    height: 20vh;
+}
+.fee_structure_table td,.fee_structure_table th{
+border-radius: 0;
+padding: 5px;
+}
+.fee_slno{
+    width: 0;
+    padding: 0;
+    margin: 0;
+}
+.admission_body p{
+    margin: 2vw;
+
+    font-size: 14px;
+}
+#admission_paragraph{
+    width: 60vw;
+}
+.publication_table_container{
+    /* background-color: lavender; */
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.college_routine_table_main td{
+    padding: 0;
+}
+.fee_structure_body{
+    width: 100%;
+    margin: 2vw 0;
+
+}
+.notification_regarding_download_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    /* background-color: aqua; */
+    margin: 0;
+}
+
+.exam_result_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+    gap: 1vw;
+}
+.fee_notification_download_btn{
+ color: white;
+ padding: 0.2vw 0.5vw;
+ font-size: 14px;
+ /* font-weight: 100; */
+ border-radius: 10px;
+ font-family: monospace;
+ background-color: #007bff;
+}
+.fee_structure_text_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 125px;
+}
+.exam_result_text{
+    display: flex;
+    gap: 2vw;
+
+}
+.exam_result_text p{
+    margin: 0;
+}
+.exam_hr{
+    border: 1px solid black;
+    width: 50%;
+    /* height: 0; */
+}
+
+.admisssin_text{
+    width: 40%;
+}
+.admission_bottom_download_btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.admission_page_table_id{
+    text-align: center;
+    width: 25vw;
+}
+@media only screen and (max-width: 1280px) {
+    .admission_page_table_id{
+        width: 100%;
+    }
+    #admission_paragraph{
+        width: fit-content;
+    margin:10px;
+
+    }
+    .admission_bottom_download_btn{
+        margin: 10px;
+        gap:0;
+    }
+}

@@ -1,0 +1,162 @@
+.footer-section {
+    /* position: absolute;
+    bottom: 0; */
+    background: black;
+    color: white;
+    width: 100vw;
+    padding: 2vh 7vw;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+    padding-bottom: 0;
+}
+
+.footer_bottom {
+    display: flex;
+    /* padding: 4rem 0; */
+    
+    justify-content: space-between;
+
+
+}
+.footer_paragraph{
+    font-size: 13px;
+    margin: 0;
+}
+.footer_top_firsrt_heading {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer_top_img {
+    width: 11%;
+
+}
+
+.social_icon {
+    display: flex;
+}
+
+.social_icon_img {
+    width: 10%;
+}
+
+.fb_icon {
+    width: 16%;
+}
+.footer_visiter_code{
+    border: 1px solid;
+    padding: 0.5vw;
+    width: fit-content;
+    margin: 1vw 0;
+    border-radius: 10px;
+}
+
+.footer-section-item {
+    /* position: relative; */
+    width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vw;
+    /* border: 1px solid; */
+}
+
+.footer_input_form {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    gap: 5px;
+}
+
+.footer_input_box {
+    background: #fff;
+    border: 1px solid #2e2e2e;
+    color: #141212;
+    padding:10px;
+    border-radius: 25px;
+    width: 100%;
+
+}
+
+.footer_hr {
+    border: 1px solid #ff5e14;
+}
+
+.footer_input_btn {
+    width: 13%;
+}
+
+.footer_logo {
+    width: 30%;
+
+}
+
+.footer-section-item h4 {
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.text_underline {
+    margin: 0;
+    color: unset;
+    margin: auto;
+    border: 1px solid #ff5e14;
+    width: 50%;
+
+}
+
+.footer_bottom_second {
+    align-items: center;
+    gap: 40px;
+}
+
+.footer_bottom_second_router {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+
+}
+
+.footer_bottom_second_router_ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_bottom_second_router_ul li{
+    width: 6vw;
+}
+
+.footer_bottom_second_router_ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.text_underline_useful_link {
+    width: 50%;
+    border: 1px solid #ff5e14;
+    margin: 0;
+    margin: auto;
+}
+.feedback_div{
+    width: fit-content;
+    text-align: center;
+}
+
+@media only screen and (max-width: 412px) {
+.footer_input_btn {
+    width: 28%;
+}
+}
+
+
+

@@ -1,0 +1,100 @@
+.department_page_main{
+   padding: 0 2.5vw;
+   /* background-color: black; */
+}
+.department_banner_div{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+.department_banner{
+    width: 100%;
+    height: 35vh;
+   
+}
+.department_page_headiing{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    left: 25%;
+}
+.department_page_headiing1{
+    position: absolute;
+    top: 20%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    right: 25%;
+    left: 25%;
+}
+.department_page_img_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    /* row-gap: 20px; */
+}
+.department_page_img{
+    width: 18vw;
+    height: 20vh;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.department_page_body{
+    padding: 1vw;
+}
+.department_page_body_heading{
+    width: 60%;
+    text-align: center;
+    /* padding:0.5vw ; */
+    margin: auto;
+    margin-bottom: 1.5vw;
+    color: white;
+    font-weight: 500;
+    /* font-size: 32px; */
+    box-shadow: 0 0 7px gray;
+    border-radius: 5px;
+    background-color: #7497de;
+    display: flex;
+    align-content: center;
+    
+    justify-content: center;
+}
+.department_page_img_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.department_page_img_heading{
+    font-size: small;
+    font-weight: bold;
+    color: blue;
+    /* padding: 1rem; */
+    /* border: 1px solid; */
+    margin: 0;
+}
+.department_page_btn_heading{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+    margin: 1vh 0;
+    width: 18vw;
+    /* border: 1px solid; */
+}
+.department_page_btn_heading a{
+   
+
+
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 20px;
+
+
+}

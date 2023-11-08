@@ -1,0 +1,175 @@
+.carousel_main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+
+#carouselExample{
+    width: 70vw;
+    /* height: 100vh; */
+}
+.noti_header{
+    color: white;
+    box-shadow: 0 0 7px gray;
+    border-radius: 5px;
+    background-color: hsl(238,53%,37%);
+    position: relative;
+    z-index: 1;
+    width: 70%;
+    text-align: center;
+    
+}
+.tales {
+    width: 100%;
+    height: 65vh;
+  }
+  .notification_main{
+    width: 25vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 105%;
+    margin-top: 2vh;
+    
+  }
+.notification_container{
+    text-align: center;
+    height: 100%;
+    border: 1px solid;
+    border-top: 0px;
+    overflow: hidden;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+    width: 100%;
+
+
+}
+.view_all_route{
+    position:absolute;
+    bottom: 3vh;
+    border-radius: 50Px;
+    text-decoration: none;
+
+
+    color:black;
+    border:  2px solid orange;
+    
+    padding: 5px 10px;
+    font-weight: bolder;
+    width: fit-content;
+    transition: all 2s;
+    border-radius: 20px;
+
+
+}
+
+.noti_hr{
+    margin: 0;
+    padding: 0;
+}
+.notification_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    animation: scroll;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    
+    height: 100%;
+
+}
+.notification_list p{
+    border: 1px dotted black;
+    font-size: small;
+    width: 100%;
+    /* background-color: rgba(135, 207, 235, 0.151); */
+    color: blue;
+    
+}
+@keyframes scroll {
+    0%{
+        top: 0;
+        color: black;
+    }
+   
+    100%{
+        top:-20vh;
+        color: orange;
+    }
+}
+
+/* Tender Notification */
+
+
+
+.tender_noti_list{
+border: 1px solid black;
+width:86vw;;
+display: flex;
+margin: 0;
+flex-wrap: wrap;
+
+
+}
+.tender_noti_container{
+    display: flex;
+margin-top: 10vh;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+gap: 10px;
+padding: 0 1.4vw;
+}
+.tender_noti_list li{
+    /* width: 39vw; */
+    margin: 0;
+    /* background-color: lightblue; */
+    font-size: 0.9vw;
+    color: blue;
+}
+@keyframes tender-scroll {
+    0%{
+        left: 0;
+    }
+    100%{
+        left:-70vw;
+    }
+ 
+    
+}
+
+
+.notice_link{
+    text-decoration: none;
+}
+.tender_noti_header{
+    color: blue;
+    border-radius: 5px;
+    background-color:white;
+    border: 0.3vw  solid black;
+    width: fit-content;
+    padding:1vw;
+    margin: 0;
+    font-size: 0.8999999999999999vw;
+    z-index: 10;
+    /* margin-top: -1vh; */
+    text-decoration: none;
+
+}
+/* .tender_noti_header_div{
+    padding-right: 2vw;
+    background-color: white;
+    z-index: 9;
+    height: 4vh;
+    
+} */

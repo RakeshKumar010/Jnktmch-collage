@@ -1,0 +1,67 @@
+.siderfaculty_right_body{
+ 
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 2vw;
+   
+}
+.siderfaculty_right_body table{
+    width: 90%;
+}
+.siderfaculty_right_heading{
+    background-color: black;
+    color: #dddddd;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px black;
+    padding: 8px;
+}
+
+.sidefaculty_body{
+    display: flex;
+    justify-content: space-between;
+
+    /* padding: 0 2.5vw; */
+}
+.siderfaculty_right_body th,.siderfaculty_right_body td{
+    border: 1px solid;
+    padding: 8px;
+text-align: center;
+/* border-radius: 20px; */
+/* background-color: rebeccapurple; */
+}
+
+.Side_eduipments_lab_main{
+    width: 82%;
+    height: 100%;
+    /* margin: 2vw; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 1vw;
+    /* position: absolute; */
+    /* background-color: rgb(235, 214, 186); */
+    /* background-color: white; */
+    padding: 2vw;
+    /* right: 0; */
+}
+.sidefaculty_main{
+    width: 100%;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.siderfaculty_right_body th{
+    background-color: black;
+    color: #dddddd;
+}
+/* .siderfaculty_right_body table:nth-child(even) {
+    background-color: #dddddd;
+  } */

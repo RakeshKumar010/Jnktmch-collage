@@ -1,0 +1,48 @@
+.allpagerap_details_right_body{
+    width: 100%;
+    margin: 2vw;
+}
+
+.img_of_allpagerap{
+    margin: 2vw;
+    display: flex;
+    gap: 3vw;
+}
+.allpagerap_details_hod_img{
+    width: 23vw;
+    height: 19vw;
+    border-radius: 30px;
+
+}
+.name_of_allpagerap_heading{
+    padding: 1vw;
+    background-color: rgba(0, 0, 0, 0.13);
+    /* filter: blur(4px); */
+    color: black;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px black;
+}
+.allpagerap_right_body{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.allpagerap_right_body table{
+    padding: 1vw;
+    background-color: gray;
+    border-radius: 50px;
+}
+.allpagerap_right_body table th{
+background-color: black;
+color: #fff;
+}
+.allpagerap_right_body table th,.allpagerap_right_body table td{
+    padding: 1vw;
+    color: white;
+    text-align: center;
+
+
+}
+

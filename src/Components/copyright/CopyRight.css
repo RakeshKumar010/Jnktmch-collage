@@ -1,0 +1,23 @@
+.copyright_main{
+    background: gray;
+    /* padding: 5px; */
+    /* border-radius: 50px; */
+    box-shadow: 1px 1px 8px black inset;
+    text-align: center;
+ 
+display: flex;
+justify-content: space-between;
+padding: 0.5vw 10vw;
+    /* display: none; */
+
+}
+.copyright_main p,.copyright_main a{
+    margin: 0;
+font-size: 14px;
+color: white;
+
+}
+.copyright_links{
+    display: flex;
+    gap: 2vw;
+}

@@ -1,0 +1,327 @@
+.library_main,.hostel_main,.Canteen_main,.theaters_main,.gym_main{
+    padding: 0 2.5vw;
+}
+.library_body{
+    display: flex;
+    gap: 5vw;
+
+    justify-content: center;
+}
+.gym_heading{
+  background: black;
+  text-align: center;
+  padding: 0.5vw;
+  color: #dddddd;
+  /* width: 50%; */
+  
+  box-shadow: 1px 1px 8px;
+  border-radius: 10px;
+}
+.library_img{
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px;
+}
+
+.library_table_main{
+    /* font-family: arial, sans-serif; */
+    /* border-collapse: collapse; */
+    /* border: 1px solid; */
+    width: fit-content;
+    font-size: 14px;
+    margin-top: 10vh;
+    box-shadow: 1px 1px 5px;
+    border-radius: 20px;
+
+}
+
+
+.library_left_content{
+ display: flex;
+ flex-direction: column;
+ margin: 2vw 0;
+
+}
+
+.library_table_main td,.library_table_main th {
+    /* border: 1px solid #dddddd; */
+    /* border: 0; */
+    /* border-top: unset; */
+    text-align: left;
+    padding: 8px;
+    /* border-radius: 0 0 20px 20px; */
+
+    text-align: center;
+  }
+  .table_last_child1{
+    border-radius:0 0 0 20px;
+
+  }
+  .table_last_child2{
+    border-radius:0 0 20px 0;
+
+  }
+  
+.library_table_main tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .library_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .library_right_content_heading {
+    border: 1px solid;
+    text-align: center;
+    margin: 2vw 0;
+    background: lightblue;
+    box-shadow: 1px 1px 5px;
+    width: 30%;
+    font-size: 26px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .library_right_content_para,.hostel_right_content_para{
+    font-size: 14px;
+  }
+  .library_points li{ 
+    font-size: 14px;
+
+  }
+
+  .library_right_bottom_img{
+    display: flex;
+    /* height: 57vh; */
+    align-items: center;
+    /* background-color: lavender; */
+    justify-content: space-between;
+
+  }
+  .library_image1{
+    width: 35%;
+    border-radius: 20px;
+    height: 29vh;
+    box-shadow: 1px 1px 5px;
+  }
+  .library_points{
+    /* background-color: lavender; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .library_mag{
+    width: 17%;
+    border-radius: 20px;
+    height: 29vh;
+    box-shadow: 1px 1px 5px;
+  }
+  .library_contact_details{
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    /* color: white; */
+    padding: 1rem;
+    border-radius: 45px 45px 0 0;
+    /* border: 2px solid greenyellow; */
+    border-bottom:0 ;
+    /* box-shadow: 0 -1px 11px; */
+  }
+  .library_contact_details p{
+    margin: 0;
+
+  }
+
+  .boys_hostel_img{
+    width: 100%;
+  }
+.boys_hostel_left{
+    /* width: 50vw */
+    
+
+    width: 40vw;
+}
+.girls_hostel_left{
+    width: 100vw;
+    height: 50vh;
+
+}
+.girls_hostel_img{
+    width: 100%;
+    height: 100%;
+}
+  .boys_hostel_body,.girls_hostel_body{
+    display: flex;
+/* align-items: center; */
+    justify-content: space-between;
+    gap: 6vw;
+
+    
+  }
+  .canteen_right{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    width: 30vw;
+  }
+ 
+  .hostel_right_heading{
+    margin-bottom: 7vh;
+  }
+  .theaters_heading{
+    margin: 7vh 0;
+  }
+  .hostel_right_heading::first-letter{
+    /* font-size: xx-large; */
+    color: goldenrod;
+    font-size: 50px;
+
+  }
+  .theaters_heading::first-letter{
+    /* font-size: xx-large; */
+    color: goldenrod;
+    font-size: 50px;
+
+  }
+  .conteen_img{
+    width: 100%;
+    height: 23vh;
+    border-radius: 20px;
+    box-shadow: -1px -1px 8px;
+  }
+  .hostel_body{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10vh; */
+    margin: 4rem;
+  }
+.canteen_body{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10vh 0;
+
+}
+
+.canteen_left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1vh;
+}
+
+.hostel_img{
+    border-radius: 20px;
+    width: 38vw;
+    height: 18vw;
+    box-shadow: 1px 1px 8px;
+}
+
+.theaters_body{
+    display: flex;
+    /* gap: 20vw; */
+    height: 70vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.theaters_left{
+    width: 50%;
+}
+
+.theaters_img{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 8px;
+}
+.labroratory_img{
+    width: 75%;
+    margin-left: 15vw;
+    border-radius: 20px;
+    box-shadow: 0 0 8px;
+}
+.boys_gym_body{
+  display: flex;
+  align-items: center;
+  gap: 15vw;
+  flex-direction: row-reverse;
+}
+.boys_gym_left{
+  width: 40vw;
+}
+.gym_main_img{
+  width: 100%;
+}
+.gym_body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 10vw;
+  margin: 2vw 0;
+}
+.gym_all_img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5vh;
+  /* height: 80vh; */
+
+}
+.gym_main_img{
+  height: 30vw;
+  width: 20vw;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px;
+
+}
+.gym_img1{
+  height: 15vw;
+  width: 15vw;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px;
+}
+.staff_quater_table_div{
+/* margin: auto; */
+display: flex;
+justify-content: center;
+/* background-color: lemonchiffon; */
+}
+
+#staff_quater_table_id{
+  width: 50vw;
+}
+.staff_quater_img_div{
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+.quater_img{
+  width: 25vw;
+  margin: 2vw;
+  height: 17vw;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px;
+  
+}
+.hostel_table_main{
+  width: 70%;
+}
+.hostel_table_main th{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.hostel_bottom_div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hostel_total_beds{
+  margin-bottom: -7vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4vw;
+}

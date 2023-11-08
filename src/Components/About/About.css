@@ -1,0 +1,198 @@
+.about_college_main {
+    width: 100vw;
+    height: fit-content;
+}
+
+.about_college_headiing {
+    font-size: x-large;
+    margin: auto;
+    /* font-weight: bold; */
+}
+
+.about_college_body {
+    margin: 2vw auto;
+    width: 80%;
+    /* background-color: gray; */
+
+}
+
+.about_college_banner {
+    width: 100%;
+    background-color: #f6c3ac2f;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding: 4.5vw;
+}
+
+.about_college_img {
+    position: relative;
+    width: 22vw;
+    height: 52vh;
+    /* border-radius: 10px; */
+    float: right;
+    margin: 2rem;
+    margin-right: 4rem;
+    margin-left: 6vw;
+
+}
+
+.about_college_principal {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+}
+
+.principal_desk_span {
+    font-weight: bolder;
+    width: 100vw;
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+    padding: 3rem 1rem;
+}
+
+.about_college_para {
+    /* padding: 0 0 5rem 0; */
+    margin-right: 15vw;
+    font-size: 14px;
+
+}
+
+.about_college_lest_div {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.about_college_lest_text {
+    /* text-align: right; */
+    width: fit-content;
+
+    margin-right: 15vw;
+    /* border: 1px solid black; */
+
+}
+
+.about_college_ul {
+    /* list-style: disc; */
+    font-size: 14px;
+    line-height: 1.5vw;
+}
+
+.language_change_btn {
+    padding: 0.5vw 2.5vw;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    margin-right: 2vw;
+    /* margin-bottom: 4vw; */
+    background-color: white;
+    color: blue;
+    font-size: 14px;
+}
+
+.about_college_heading {
+    padding: 0.7vw;
+    box-shadow: 1px 1px 8px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+    width: fit-content;
+}
+
+.english_heading_about_college {
+    padding: 0.7vw 5vw;
+    /* background-color: wheat; */
+}
+
+.about_english_ul {
+    margin-top: 3vw;
+}
+
+.administrative_block_body {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2vw;
+    margin-bottom: 2vw;
+}
+
+.administrative_block_img {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    gap: 2vw;
+}
+
+.admin_img {
+    width: 100%;
+    box-shadow: 1px 1px 8px;
+    border-radius: 20px;
+    height: 15vw;
+
+
+}
+
+.administrative_block_text {
+    width: 40vw;
+}
+
+.administrative_block_main {
+    padding: 0 2.5vw;
+}
+
+.administrative_block_heading {
+    margin: 2vw;
+    box-shadow: 1px 1px 8px;
+    border-radius: 20px;
+    padding: 0.5vw 1vw;
+    background-color: black;
+    color: white;
+    display: inline-grid;
+    /* margin: auto; */
+
+}
+
+.administrative_block_heading_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about_college_route {
+    font-size: 1.2vw;
+    color: blue;
+}
+
+@media only screen and (max-width: 740px) {
+    .about_college_route {
+        font-size: 4.5vw;
+    }
+
+    .about_college_body {
+        margin: 12vw auto;
+    }
+
+    .about_college_body {
+        position: relative;
+    }
+
+    .language_change_btn {
+        top: -5vh;
+        right: 5vh;
+    }
+    .about_college_heading{
+        /* background-color: ; */
+        box-shadow: 0;
+        border-radius: 0;
+        
+    }
+    .about_college_ul{
+        line-height: unset;
+    }
+}
